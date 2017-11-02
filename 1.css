@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+
+.tinto:hover .chuto {
+    top: 35%;
+    transform: scale(1.05);
+}
+
+.tinto:hover .xam {
+    opacity: 1;
+}
+
+.tinto:hover img.layer1 {
+    transform: scale(1.25);
+}
+
+.tinto:hover .cheo2 {
+    transform: rotate(-45deg);
+}
+
+.tinto:hover .cheo1 {
+    transform: rotate(45deg);
+}
+
+.chube {
+    font-family: Arial;
+    color: wheat;
+    position: absolute;
+    top: 64%;
+    left: 9%;
+    width: 81%;
+    font-size: 13px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.tinto:hover .chube {
+    top: 60%;
+    transform: scale(1.05);
+}
+
+.chuto {
+    position: absolute;
+    z-index: 4;
+    font-size: 32px;
+    top: 32%;
+    left: 24%;
+    font-family: Tahoma;
+    color: wheat;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.cheo2 {
+    position: absolute;
+    z-index: 3;
+    height: 1px;
+    width: 55%;
+    background: black;
+    top: 50%;
+    left: 21%;
+    transition: 0.4s;
+}
+
+.cheo1 {
+    height: 1px;
+    width: 55%;
+    background: black;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 21%;
+    margin: auto;
+    text-align: center;
+    transition: 0.4s;
+    transform: rotateX(0deg);
+}
+
+.xam {
+    position: absolute;
+    z-index: 6;
+    background: rgba(17, 60, 64, 0.31);
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    width: 400px;
+    height: 100%;
+    opacity: 0;
+}
+
+img.layer1 {
+    width: 400px;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: auto;
+    transform: scale(1);
+    transition: 0.4s;
+}
+
+.tinto {
+    position: relative;
+    width: 400px;
+    height: 268px;
+    background: gray;
+    overflow: hidden;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.tinto {} 
+
+.tinto .sam {
+	position: absolute;
+	z-index: 2;
+	width: 400px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.15);
+} 
+ 
+/* Hết demo 1*/
+
+
+
+.chube1 {
+    font-family: Arial;
+    color: whitesmoke;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    width: 68%;
+    top: 47%;
+    left: 15%;
+    font-size: 14px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.2s;
+}
+
+.tinto1:hover .chube1 {
+    opacity: 1;
+    transform: scale(1)
+}
+
+.chuto1 {
+    font-family: Tahoma;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 29%;
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.tinto1:hover .chuto1 {
+    top: 33%;
+}
+
+.vien {
+    position: absolute;
+    z-index: 3;
+    top: 6%;
+    left: 7%;
+    width: 85%;
+    height: 69%;
+    border: 5px solid white;
+    opacity: 0;
+    transition: 0.2s;
+    transform: scale(0);
+}
+
+.tinto1:hover .vien {
+    opacity: 1;
+    transform: scale(1)
+} 
+
+.gradient {
+    position: absolute;
+    z-index: 2;
+    background-image: -webkit-linear-gradient(45deg,#5DCD6A 0%,rgba(122, 47, 3, 0.77) 40%,#5f5151 100%);
+    width: 500px;
+    height: 333px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.tinto1:hover .gradient {
+    opacity: 0.4;
+}
+
+.tinto1 {
+    width: 500px;
+    position: relative;
+    height: 410px;
+    float: left;
+    margin-right: 90px;
+    background-size: cover;
+}
+
+.xam1 {
+    position: absolute;
+    z-index: 1;
+    background: rgba(128, 128, 128, 0.42);
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 82%;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.tinto1:hover .xam {
+    opacity: 0;
+}
+
+img.anh {
+    width: 500px;
+    height: 333px;
+    background-size: cover;
+} 
+
+/* Hiệu ứng load thêm */
+
+.nutload {
+	clear: both;
+	border: none;
+	margin: auto;
+	width: 200px;
+	cursor: pointer;
+}
+.loadthem {
+	overflow: hidden;
+	clear: both;
+	width: 200px;
+	margin:  auto;
+	background:  lightblue;
+	text-decoration: none;
+	border: none;
+	padding:  10px;
+}
